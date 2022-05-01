@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Outfit:wght@300;400;600&display=swap');
 
 body {
-    background-color: var(--neutral-dark);
+    background-color: hsl(217, 54%, 11%);
     font-family: 'Outfit', sans-serif;
 }
 
@@ -92,6 +92,7 @@ main {
     background: url(../images/icon-ethereum.svg) no-repeat center;
     width: 11px;
     height: 20px;
+    padding-right: 10px;
     display: inline-block;
     margin-right: 5px;
 }
@@ -107,6 +108,7 @@ main {
     width: 15px;
     display: inline-block;
     margin-right: 5px;
+    padding-right: 10px;
 }
 
 .nft-card .creator {
