@@ -100,6 +100,7 @@ main {
 .nft-card .info .days-left {
     color: #ffffff;
     display: flex;
+    padding-right: 8px;
 }
 
 .nft-card .info .days-left::before {
