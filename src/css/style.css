@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Outfit:wght@300;400;600&display=swap');
 
 body {
-    background-color: hsl(217, 54%, 11%);
+    background-color: var(--neutral-dark);
     font-family: 'Outfit', sans-serif;
 }
 
@@ -32,7 +32,7 @@ main {
 
 .nft-card .image-link::before {
     content: '';
-    background-color: hsl(178, 100%, 50%);
+    background-color: var(--primary-medium);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -65,11 +65,11 @@ main {
 }
 
 .nft-card .title-link .title:hover {
-    color: hsl(178, 100%, 50%);
+    color: var(--primary-medium);
 }
 
 .nft-card .about {
-    color: hsl(178, 100%, 50%);
+    color: var(--primary-medium);
     font-size: 18px;
     font-weight: 300;
     line-height: 25px;
@@ -135,5 +135,5 @@ main {
 }
 
 .nft-card .creator .text .name:hover {
-    color: hsl(178, 100%, 50%);
+    color: var(--primary-medium);
 }
